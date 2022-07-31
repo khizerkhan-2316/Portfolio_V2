@@ -5,7 +5,7 @@ const AboutMe = () => {
     { title: 'Experince', value: '4 months' },
     { title: 'Projects', value: '5' },
     { title: 'Field', value: 'IT' },
-    { title: 'Education', value: 'Compuer Science (AP)' },
+    { title: 'Education', value: 'Compuer Science' },
   ];
   return (
     <>
@@ -15,9 +15,10 @@ const AboutMe = () => {
         </div>
 
         <div className="about-paragraph-container">
+          <h3>Education</h3>
           <p>
-            I am a happy and smiling boy of 21 years, who lives in Søndervangen
-            by Viby J. I traveled from Pakistan to Denmark as a 1-year-old and
+            I am a happy and smiling boy of 23 years, who lives in Hasle,
+            Aarhus. I traveled from Pakistan to Denmark as a 1-year-old and
             started life in Denmark. I went to Tranbjergskolen (primary school).
             Subsequently, I started on the Higher Technical Exam (HTX) in the
             line Information Technology B and Mathematics A as I was interested
@@ -32,13 +33,29 @@ const AboutMe = () => {
           </p>
         </div>
 
+        <div className="about-paragraph-container">
+          <h3>Working way</h3>
+          <p>
+            My working method when it comes to tasks, whether it is educational
+            or personal, I work systematically and purposefully and plan my work
+            tasks, so I can form an overview and meet deadlines and complete the
+            work tasks.
+          </p>
+          <p>
+            In my spare time I spend a lot of my time programming. I self-study
+            the programming language Java, where I use object-oriented
+            programming style to code in. I learn theory online and put it into
+            practice in console projects I build myself. As for anything else, I
+            spend time with family and friends.
+          </p>
+        </div>
         <div className="about-facts-container">
-          {facts.map((fact) => {
+          {facts.map((fact, index) => {
             return (
-              <div className="about-fact">
-                <h3>{fact.value}</h3>
-                <h4>{fact.title}</h4>
-              </div>
+              <section className="about-fact" key={index}>
+                <h3>{fact.title}</h3>
+                <h4>{fact.value}</h4>
+              </section>
             );
           })}
         </div>

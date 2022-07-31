@@ -1,0 +1,35 @@
+.project-container {
+  width: 100%;
+  padding: var(--section-padding);
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background: var(--section-background-color-primary);
+  color: var(--section-color-primary);
+}
+
+.project-heading-container {
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  color: var(--heading-color-primary);
+}
+.project-heading-container p {
+  line-height: 2;
+  padding: 5px;
+}
+
+.project-content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.project-content-container a {
+  text-decoration: none;
+}

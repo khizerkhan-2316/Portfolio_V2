@@ -1,54 +1,5 @@
 .App {
   display: flex;
   height: auto;
-}
-
-.main-content-container {
-  width: 70%;
-  display: flex;
   flex-flow: column;
-  align-items: center;
-}
-
-.image-container-fixed {
-  width: 30%;
-  height: 100vh;
-  background-image: url(./Assets/Images/khizer-fixed.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-@media (max-width: 1200px) and (min-width: 1001px) {
-  .image-container-fixed {
-    width: 35%;
-    background-position: left center top;
-  }
-
-  .main-content-container {
-    width: 65%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .image-container-fixed {
-    display: none;
-  }
-
-  .main-content-container {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .image-container-fixed {
-    display: none;
-  }
-  .main-content-container {
-    width: 100%;
-  }
 }

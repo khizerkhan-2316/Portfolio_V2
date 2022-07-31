@@ -1,16 +1,6 @@
 /* Google-fonts: */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap'); /* CSS-variables for colors and typographys: */
-:root {
-  --main-button-font: 'Roboto Slab', serif;
-  --main-header-font: 'Playfair Display', serif;
-  --main-text-font: 'Kanit', sans-serif;
-  --main-hidden-show-text: 'none';
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -24,36 +14,67 @@ html {
 }
 
 :root {
-  --section-color-primary: #fff;
-  --heading-font-family: 'Karla', sans-serif;
+  --heading-font-family: 'PT Serif', serif;
   --text-font-family: 'Karla', sans-serif;
   --button-font-family: 'Karla', sans-serif;
   --text-color-primary: #fff;
+  --text-color-secondary: #fff;
   --heading-color-primary: #fff;
-  --text-color-secondary: #000000;
-  --heading-color-secondary: #000000;
-  --button-backgroundcolor-primary: #fff;
-  --button-backgroundcolor-secondary: #000000;
+  --heading-color-secondary: #fff;
+  --heading-color-thirdly: #4bffa5;
   --border-color-primary: #fff;
   --border-color-secondary: #7d7d7d;
   --heading-font-weight: 800;
   --text-font-weight: 400;
-  --nav-color-primary: #012e4f;
-  --nav-color-secondary: #012e4f;
+  --nav-color-primary: #fff;
+  --nav-color-secondary: #fff;
+  --nav-background-color-primary: #012e4f;
+  --nav-background-color-secondary: #012e4f;
+  --nav-box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
   --nav-height-primary: 70px;
   --nav-height-secondary: 70px;
-  --section-color-secondary: #35ddac;
-  --body-color: #012e4f;
+  --section-color-secondary: #4f012e;
+  --section-color-primary: #fff;
+  --section-color-secondary: #fff;
+  --section-background-color-primary: #012e4f;
+  --section-background-color-secondary: #4f012e;
+  --section-background-color-thirdly: #4bffa5;
+  --section-padding: 20px 0px 40px 0px;
+  --boxshadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+  --boxshadowhover: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --button-background-color: transparent;
+  --button-border-color: #4bffa5;
+  --button-border-size: 1px;
+  --border-radius: 5px;
+  --button-background-color-hover: rgba(100, 255, 218, 0.1);
+  --project-component-background-color: #fff;
+  --project-component-color: #000;
+  --label-background-color: #012e4f;
+  --tag-background-color: #4bffa5;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img,
+button {
+  user-select: none;
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 3px;
   background-color: #0a192f;
   scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #012e4f;
+  background-color: transparent;
   border-radius: 100vw;
 }
 
@@ -62,23 +83,20 @@ html {
   border-radius: 100vw;
 }
 
-body {
-  background: linear-gradient(90deg, rgba(1, 46, 79, 0.8), rgba(1, 46, 79, 1)),
-    url('./Assets//Images/background.jpg');
-  background-size: cover;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+span {
   font-family: var(--heading-font-family);
 }
 
 p {
   font-family: var(--text-font-family);
+}
+
+a {
+  color: inherit;
 }

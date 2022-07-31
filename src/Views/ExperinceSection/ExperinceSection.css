@@ -1,0 +1,25 @@
+#experince {
+  height: auto;
+  background-color: var(--section-background-color-primary);
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: var(--section-padding);
+}
+
+.experince-heading-container {
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  color: var(--heading-color-primary);
+  text-align: center;
+}
+
+.experince-heading-container p {
+  line-height: 2;
+  padding: 5px;
+}

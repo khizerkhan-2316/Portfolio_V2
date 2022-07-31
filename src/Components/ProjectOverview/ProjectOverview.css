@@ -1,0 +1,216 @@
+.project-overview {
+  width: 100%;
+  height: 94vh;
+  display: flex;
+  flex-flow: column;
+  color: var(--section-color-primary);
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.5 ease-in-out;
+  padding: var(--section-padding);
+  background: linear-gradient(90deg, rgba(1, 46, 79, 0.8), rgba(1, 46, 79, 1)),
+    url('../../Assets//Images/background.jpg');
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.project-overview-close-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 10%;
+  animation: fadeIn 2.5s ease-in;
+}
+
+.project-overview-heading-container {
+  width: 90%;
+  padding: 20px 0px 20px 0px;
+  animation: fadeIn 2.5s ease-in;
+}
+
+.project-overview-content-container {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+}
+
+.project-overview-heading-container h1 {
+  font-size: 30px;
+}
+
+.project-description-container {
+  width: 55%;
+  animation: fadeIn 2.5s ease-in;
+}
+
+.project-description-container h2,
+.project-description-container p,
+.project-description-container h3 {
+  padding-left: 5%;
+  padding-bottom: 2%;
+  width: 80%;
+}
+
+.project-description-container p {
+  font-family: var(--text-font-family);
+  line-height: 2;
+}
+
+.project-overview-img-container {
+  width: 45%;
+  animation: fadeIn 2.5s ease-in;
+}
+
+.project-userdetails {
+  line-height: 0 !important;
+  padding-bottom: 0%;
+}
+
+.project-overview-img-container img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.project-info-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  animation: fadeIn 2.5s ease-in;
+}
+
+.project-info-container p {
+  line-height: 2;
+}
+
+.project-info-container h3 {
+  padding-top: 2%;
+}
+
+.project-info-container h3 strong a {
+  color: var(--section-background-color-thirdly);
+  text-decoration: underline;
+}
+
+.external-navigate-wrapper {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.project-toggle-container {
+  width: 90%;
+  margin-top: 55px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 60px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project-toggle-container-child {
+  width: 50%;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 1550px) {
+  .project-description-container h2,
+  .project-description-container p,
+  .project-description-container h3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .project-overview-img-container img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .project-description-container,
+  .project-info-container,
+  .project-overview-heading-container {
+    font-size: 12px;
+  }
+  .project-overview {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1350px) and (min-height: 768px) {
+  .project-overview {
+    height: 94vh;
+  }
+
+  .project-overview-content-container {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project-description-container {
+    width: 100%;
+  }
+
+  .project-overview-img-container {
+    width: 100%;
+  }
+
+  .project-overview-img-container {
+    height: 30vh;
+    width: 100%;
+  }
+
+  .project-description-container h2,
+  .project-description-container p,
+  .project-description-container h3 {
+    padding-left: 0%;
+  }
+
+  .project-description-container,
+  .project-info-container,
+  .project-overview-heading-container {
+    font-size: 19px;
+  }
+
+  .project-description-container h2 {
+    padding-top: 2%;
+  }
+
+  .project-overview-content-container {
+    justify-content: flex-start;
+    flex-direction: column wrap;
+  }
+
+  .project-overview {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-description-container,
+  .project-info-container,
+  .project-overview-heading-container {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-description-container h2,
+  .project-description-container h3 {
+    padding-top: 20px;
+  }
+
+  .project-info-container h3 {
+    font-size: 15px;
+  }
+
+  .project-description-container h3 {
+    padding-bottom: 20px;
+  }
+}

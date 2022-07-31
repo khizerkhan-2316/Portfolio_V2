@@ -1,0 +1,9 @@
+.icon {
+  font-size: 40px;
+  color: white;
+}
+
+.icon:hover {
+  transition: 0.2s ease;
+  color: #37daac;
+}
