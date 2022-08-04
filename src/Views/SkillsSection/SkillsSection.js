@@ -15,27 +15,38 @@ const SkillsSection = () => {
         <div className="skills-text-container">
           <h3>Languages</h3>
           <p>
-            Jeg har lært HTML, CSS og Javascript på uddannelsen, således jeg kan
-            anvende disse kompetencer til at skabe interaktive og præsentable
-            hjemmesider på frontend.
+            I have learned Java and SQL, where i have experince of developing
+            desktop applications with MVC arcitecture. I have been using JavaFX
+            for UI and core Java combined with SQL for the backend.
           </p>
 
-          <h3>Frameworks & Liberaris</h3>
           <p>
-            Yderligere har jeg lært at udvikle hjemmesider vha. CMS-systemet
-            Wordpress, hvor jeg anvendte Divi theme builder til at skabe
-            hjemmesiderne. Dette var som freelance arbejde for Dantitet, et
-            webbureau, der klarer opgaver indenfor grafisk design og
-            webudvikling.
+            Further more i have learned JavaScript, HTML5 and CSS3 for
+            developing websites and web applications.
           </p>
 
-          <h3>Tools</h3>
+          <h3>Frameworks & Libraries</h3>
           <p>
-            Yderligere har jeg lært at udvikle hjemmesider vha. CMS-systemet
-            Wordpress, hvor jeg anvendte Divi theme builder til at skabe
-            hjemmesiderne. Dette var som freelance arbejde for Dantitet, et
-            webbureau, der klarer opgaver indenfor grafisk design og
-            webudvikling.
+            I have experince with MERN stack which consists of MongoDB
+            (Mongoose), Express, React and Node, using these frameworks and
+            libraries to develop client/server arcitecture-based webapplications
+            where the client-side interacts with the server through a REST API.
+          </p>
+
+          <h3>Continous learning</h3>
+
+          <p>
+            I strive to learn and enhance my skills as there is always more to
+            learn ie. continous learning and growth. It is a life long journey
+            of learning, growing and striving to be better both professionally
+            and personally.
+          </p>
+
+          <p>
+            Personally for me, fundemental and core computer science and
+            programming related concepts are more important to grasph and learn.
+            Popular frameworks and libraries often comes and go but the
+            essentiel and core concepts of IT is here to stay.
           </p>
         </div>
         <div className="skills-sphere-container">

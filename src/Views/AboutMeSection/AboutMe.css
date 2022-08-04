@@ -9,6 +9,7 @@
   padding: var(--section-padding);
   background: var(--section-background-color-secondary);
 }
+
 .about .about-heading-container {
   width: 100%;
   display: flex;

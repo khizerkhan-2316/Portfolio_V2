@@ -16,12 +16,13 @@
 
 .click-tag {
   position: absolute;
-  background-color: #4bffa5;
+  background-color: var(--section-background-color-thirdly);
   color: black;
   font-family: var(--text-font-family);
   padding: 0px 10px 0px 10px;
   font-size: 12px;
   text-align: center;
+  border-radius: 5px 0px 0px 0px;
 }
 
 .project img {
@@ -63,7 +64,7 @@
   align-items: center;
   height: auto;
   margin-top: 20px;
-  background-color: var(--tag-background-color);
+  background-color: var(--section-background-color-thirdly);
   border-radius: 0px 0px var(--border-radius) var(--border-radius);
 }
 

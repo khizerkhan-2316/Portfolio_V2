@@ -9,8 +9,8 @@ const ContactSection = () => {
       <div className="contact-heading-container">
         <h2>Get in touch</h2>
         <p>
-          In this section you get a preview of my experince with languages and
-          tools
+          If you have any questions or a request, don't hesitate to use the
+          form.
         </p>
       </div>
 
