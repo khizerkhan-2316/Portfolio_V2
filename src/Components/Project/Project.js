@@ -26,9 +26,13 @@ const Project = (props) => {
       <p className="project-type">{type}</p>
       <p className="project-purpose">{purpose}</p>
       <p>{compatibility}</p>
-      <a href={url} target="_blank" rel="noreferrer">
-        <Button classname="custom-button-light">Live website</Button>
-      </a>
+      {url ? (
+        <a href={url} target="_blank" rel="noreferrer">
+          <Button classname="custom-button-light">Live website</Button>
+        </a>
+      ) : (
+        ''
+      )}
 
       <a href={sourcecode} target="_blank" rel="noreferrer">
         <Button classname="custom-button-light">Sourcecode</Button>

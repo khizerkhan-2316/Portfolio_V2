@@ -86,13 +86,23 @@ const ProjectOverview = (props) => {
           ) : (
             ''
           )}
-          <h3>Visit the website or checkout the source code on Github</h3>
+          {selectedProject.url && selectedProject.sourcecode ? (
+            <h3>Visit the website or checkout the source code on Github</h3>
+          ) : selectedProject.url ? (
+            <h3>Visit the website</h3>
+          ) : (
+            <h3>Checkout the source code</h3>
+          )}
           <div className="external-navigate-wrapper">
-            <IconButton
-              icon={faChrome}
-              link={selectedProject.url}
-              external={true}
-            />
+            {selectedProject.url ? (
+              <IconButton
+                icon={faChrome}
+                link={selectedProject.url}
+                external={true}
+              />
+            ) : (
+              ''
+            )}
 
             <IconButton
               icon={faGithub}
