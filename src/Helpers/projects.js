@@ -7,7 +7,10 @@ const projects = [
     type: 'School Project',
     purpose: 'Learned to develop a role-based full-stack application',
     compatibility: 'Works on desktop only',
-    sourcecode: 'https://github.com/khizerkhan-2316/Reportingsystem_server',
+    sourcecode_server:
+      'https://github.com/khizerkhan-2316/Reportingsystem_server',
+    sourcecode_client:
+      'https://github.com/khizerkhan-2316/Reportingsystem_client',
     tags: ['Mongoose', 'Express', 'React', 'NodeJs'],
     description: [
       <p>
@@ -41,7 +44,7 @@ const projects = [
     purpose: 'Learned to extract data from API',
     compatibility: 'Works on all devieces',
     url: 'https://countryinfo-webapp.netlify.app/',
-    sourcecode: 'https://github.com/khizerkhan-2316/rest_webapp',
+    sourcecode_client: 'https://github.com/khizerkhan-2316/rest_webapp',
     tags: ['React', 'API', 'JavaScript'],
     description: [
       <p>

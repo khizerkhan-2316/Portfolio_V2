@@ -10,9 +10,11 @@ const Project = (props) => {
     purpose,
     compatibility,
     url,
-    sourcecode,
+    sourcecode_server,
     tags,
     id,
+    sourcecode_client,
+    sourcecode,
   } = props.project;
 
   return (
@@ -34,9 +36,29 @@ const Project = (props) => {
         ''
       )}
 
-      <a href={sourcecode} target="_blank" rel="noreferrer">
-        <Button classname="custom-button-light">Sourcecode</Button>
-      </a>
+      {sourcecode_client ? (
+        <a href={sourcecode_client} target="_blank" rel="noreferrer">
+          <Button classname="custom-button-light">Sourcecode client</Button>
+        </a>
+      ) : (
+        ''
+      )}
+
+      {sourcecode_server ? (
+        <a href={sourcecode_server} target="_blank" rel="noreferrer">
+          <Button classname="custom-button-light">Sourcecode server</Button>
+        </a>
+      ) : (
+        ''
+      )}
+
+      {sourcecode ? (
+        <a href={sourcecode} target="_blank" rel="noreferrer">
+          <Button classname="custom-button-light">Sourcecode</Button>
+        </a>
+      ) : (
+        ''
+      )}
       <div className="project-tags">
         {tags.map((tag, index) => {
           return <span key={index}>{tag}</span>;

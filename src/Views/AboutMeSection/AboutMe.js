@@ -27,8 +27,8 @@ const AboutMe = () => {
           <p>
             I started Computer Science(AP) in the year 2021 and i am currently
             in the 4th semester where I am learning C# .NET, machine learning
-            with TensorFlow and Swift. I chose this degree as i aspire to be a
-            software developer.
+            with TensorFlow and IOS programming with Swift. I chose this degree
+            as i aspire to be a software developer.
           </p>
         </div>
 

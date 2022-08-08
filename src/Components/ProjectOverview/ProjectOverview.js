@@ -86,7 +86,9 @@ const ProjectOverview = (props) => {
           ) : (
             ''
           )}
-          {selectedProject.url && selectedProject.sourcecode ? (
+          {(selectedProject.url && selectedProject.sourcecode) ||
+          (selectedProject.url && selectedProject.sourcecode_client) ||
+          (selectedProject.url && selectedProject.sourcecode_server) ? (
             <h3>Visit the website or checkout the source code on Github</h3>
           ) : selectedProject.url ? (
             <h3>Visit the website</h3>
@@ -104,11 +106,35 @@ const ProjectOverview = (props) => {
               ''
             )}
 
-            <IconButton
-              icon={faGithub}
-              link={selectedProject.sourcecode}
-              external={true}
-            />
+            {selectedProject.sourcecode_client ? (
+              <IconButton
+                icon={faGithub}
+                link={selectedProject.sourcecode_client}
+                external={true}
+              />
+            ) : (
+              ''
+            )}
+
+            {selectedProject.sourcecode_server ? (
+              <IconButton
+                icon={faGithub}
+                link={selectedProject.sourcecode_server}
+                external={true}
+              />
+            ) : (
+              ''
+            )}
+
+            {selectedProject.sourcecode ? (
+              <IconButton
+                icon={faGithub}
+                link={selectedProject.sourcecode}
+                external={true}
+              />
+            ) : (
+              ''
+            )}
           </div>
         </div>
       </div>
