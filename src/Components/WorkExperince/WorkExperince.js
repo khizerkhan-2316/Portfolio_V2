@@ -16,7 +16,7 @@ const WorkExperince = (props) => {
         <h4>
           {startDate && endDate
             ? `${startDate} - ${endDate}`
-            : `${startDate} - Now`}
+            : `${startDate} - Present`}
         </h4>
       </div>
     </section>

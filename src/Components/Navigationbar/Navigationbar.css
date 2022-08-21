@@ -6,7 +6,6 @@ nav {
   z-index: 1001;
   top: 0;
   background-color: var(--nav-background-color-primary);
-  opacity: 0.95;
   transition: all 0.3s ease-in-out;
 }
 

@@ -1,7 +1,7 @@
 import './HeroSection.css';
 import Button from '../../Components/Button/Button';
 import IconButton from '../../Components/IconButton/IconButton';
-import heroImage from '../../Assets/Images/khizer-fixed.png';
+import heroImage from '../../Assets/Images/hero.png';
 //import Typewriter from 'typewriter-effect';
 //import sentences from '../../Helpers/sentences';
 import Particle from '../../Components/Particle/Particle';
@@ -16,7 +16,9 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <Particle />
-
+      <div className="hero-image-container">
+        <img src={heroImage} alt="hero" />
+      </div>
       <div className="hero-text-container">
         <div className="hero-information-wrapper">
           <h1>Hi, I am Khizer Khan.</h1>
@@ -48,14 +50,6 @@ const HeroSection = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="hero-image-container">
-        <img src={heroImage} alt="hero" />
-      </div>
-      <div className="scroll-down-icon-container">
-        <a href="#about" className="transition-link-light">
-          <div className="mouse"></div>
-        </a>
       </div>
     </section>
   );

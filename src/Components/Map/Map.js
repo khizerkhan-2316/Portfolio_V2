@@ -7,13 +7,13 @@ mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API_KEY;
 const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const zoom = 15;
+  const zoom = 16;
   useEffect(() => {
     if (map.current) return;
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [10.15382, 56.17153],
+      center: [10.12801, 56.15406],
       zoom: zoom,
     });
   });

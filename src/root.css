@@ -14,7 +14,7 @@ html {
 }
 
 :root {
-  --heading-font-family: 'PT Serif', serif;
+  --heading-font-family: 'Karla', sans-serif;
   --text-font-family: 'Karla', sans-serif;
   --button-font-family: 'Karla', sans-serif;
   --text-color-primary: #fff;
@@ -37,7 +37,7 @@ html {
   --section-color-primary: #fff;
   --section-color-secondary: #fff;
   --section-background-color-primary: #012e4f;
-  --section-background-color-secondary: #4f012e;
+  --section-background-color-secondary: #5f0030;
   --section-background-color-thirdly: #4bffa5;
   --section-padding: 20px 0px 40px 0px;
   --boxshadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);

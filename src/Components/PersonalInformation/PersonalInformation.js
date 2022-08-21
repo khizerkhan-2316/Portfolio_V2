@@ -11,7 +11,7 @@ const PersonalInformation = () => {
     <section className="personal-information-wrapper">
       <div className="personal-information-content">
         <FontAwesomeIcon icon={faHouse} />
-        <p>Bymosevej 9 8210 Hasle</p>
+        <p>Karensvej 5, 1.tv 8220 Brabrand </p>
       </div>
       <div className="personal-information-content">
         <FontAwesomeIcon icon={faEnvelope} />

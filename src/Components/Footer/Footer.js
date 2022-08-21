@@ -27,7 +27,7 @@ const Footer = () => {
         />
       </div>
       <div className="coyright-container">
-        <p>&copy; Copyright 2022 - Khizer Khan</p>
+        <p>&copy; Copyright {new Date().getFullYear()} - Khizer Khan</p>
       </div>
     </footer>
   );

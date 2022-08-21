@@ -10,9 +10,9 @@ const experinces = [
 
   {
     company: 'Danish Technological Institute',
-    title: 'Student developer',
+    title: 'Student Assistant',
     description:
-      'Currently working as a student developer in the 3D print department using TypeScript for building a price calculator web application which will be used internally and has to be integrated and work together with other systems to simplify work processes in the department.',
+      'Currently working as a student assistant in the 3D print department using TypeScript for building a price calculation web application which will be used internally and has to be integrated and work together with other systems to simplify work processes in the department.',
     startDate: 'May 2022',
     image: '/Assets/Images/teknologisk-institut.jpg',
   },

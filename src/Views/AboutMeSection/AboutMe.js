@@ -1,9 +1,18 @@
 import './AboutMe.css';
 
+import moment from 'moment';
+import { useProjects } from '../../Context/ProjectContext';
+
 const AboutMe = () => {
+  const projects = useProjects();
+
   const facts = [
-    { title: 'Experince', value: '4 months' },
-    { title: 'Projects', value: '5' },
+    {
+      title: 'Experince',
+      value:
+        moment(new Date()).diff(moment([2022, 4, 1] + 1), 'months') + ' Months',
+    },
+    { title: 'Projects', value: projects.length },
     { title: 'Field', value: 'IT' },
     { title: 'Education', value: 'Compuer Science' },
   ];
@@ -56,9 +65,10 @@ const AboutMe = () => {
         <div className="about-paragraph-container">
           <h3>Work Experince</h3>
           <p>
-            I am currently working as a student assistant at Schibsted in Media
-            Sales department and furthermore working as a student developer at
-            Danish Technological Institute as a student developer.
+            I am currently working as a student assistant at Schibsted in
+            Commercial Listing Sales and furthermore working as a student
+            assistant at Danish Technological Institute in the material and 3D
+            print department.
           </p>
         </div>
 

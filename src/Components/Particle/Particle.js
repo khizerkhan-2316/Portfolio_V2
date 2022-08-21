@@ -60,11 +60,11 @@ const Particle = () => {
               default: 'out',
             },
             random: false,
-            speed: 1.2,
+            speed: 0.7,
             straight: false,
           },
           number: {
-            value: 50,
+            value: 100,
             density: {
               enable: false,
             },
@@ -80,7 +80,7 @@ const Particle = () => {
             random: true,
             anim: {
               speed: 4,
-              size_min: 0.3,
+              size_min: 1,
             },
           },
         },
