@@ -21,7 +21,8 @@ const HeroSection = () => {
       </div>
       <div className="hero-text-container">
         <div className="hero-information-wrapper">
-          <h1>Hi there, I am Khizer Khan 👋</h1>
+          <h1>Hi there, I am Khizer Khan👋</h1>
+          <h1>Hi, I'm Khizer Khan👋</h1>
           <p>Computer Science(AP) student at Business Academy Aarhus</p>
           <a
             rel="noreferrer"

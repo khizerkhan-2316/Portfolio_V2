@@ -82,6 +82,10 @@
   font-family: var(--text-font-family);
 }
 
+.hero-information-wrapper h1:last-of-type {
+  display: none;
+}
+
 .custom-link-light {
   color: var(--color-light);
 }
@@ -106,6 +110,13 @@
   .hero-icons-container {
     width: 80%;
   }
+  .hero-information-wrapper h1:first-of-type {
+    display: none;
+  }
+
+  .hero-information-wrapper h1:last-of-type {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-height: 715px) and (min-height: 560px) {
@@ -115,5 +126,9 @@
 
   .hero-image-container {
     padding: 0px 0px 50px 0px;
+  }
+
+  .hero-information-wrapper h1:last-of-type {
+    display: none;
   }
 }

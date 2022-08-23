@@ -26,18 +26,18 @@ const AboutMe = () => {
         <div className="about-paragraph-container">
           <h3>Education</h3>
           <p>
-            I am a happy and smiling boy of 23 years, who lives in Hasle,
-            Aarhus. I traveled from Pakistan to Denmark as a 1-year-old and
-            started life in Denmark. I went to Tranbjergskolen (primary school).
-            Subsequently, I started on the Higher Technical Exam (HTX) in the
-            line of Information Technology B-level and Mathematics A-level as I
-            was interested in IT.
+            I am a happy and smiling boy of 23 years, who lives in Brabrand,
+            Aarhus. I came from Pakistan to Denmark as a 1-year-old with my
+            family and started life in Denmark. I went to Tranbjergskolen
+            (primary school). Subsequently, I started on the Higher Technical
+            Exam (HTX) in the line of Information Technology B-level and
+            Mathematics A-level as I was interested in IT.
           </p>
           <p>
             I started Computer Science(AP) in the year 2021 and i am currently
             in the 4th semester where I am learning C# .NET, machine learning
-            with TensorFlow and IOS programming with Swift. I chose this degree
-            as i aspire to be a software developer.
+            with Python and TensorFlow and IOS programming with Swift. I chose
+            this degree as i aspire to be a software developer.
           </p>
         </div>
 
@@ -66,9 +66,9 @@ const AboutMe = () => {
           <h3>Work Experince</h3>
           <p>
             I am currently working as a student assistant at Schibsted in
-            Commercial Listing Sales and furthermore working as a student
-            assistant at Danish Technological Institute in the material and 3D
-            print department.
+            Commercial Listings and furthermore working as a student assistant
+            at Danish Technological Institute in the material and 3D print
+            department.
           </p>
         </div>
 

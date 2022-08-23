@@ -3,7 +3,7 @@ const experinces = [
     company: 'Schibsted',
     title: 'Student Assistant',
     description:
-      "Currently working as a student Assistant in Listing Sales where i have the responsibillity for placing Boost-Connect subscribed customers' listings live on the platform DBA by using a RPA tool to create robots.  ",
+      "Currently working as a student Assistant in Commercial Listings where i have the responsibillity for placing Boost-Connect subscribed customers' listings live on the platform DBA by using a RPA tool to create robots.  ",
     startDate: 'June 2021',
     image: '/Assets/Images/schibsted.jpg',
   },

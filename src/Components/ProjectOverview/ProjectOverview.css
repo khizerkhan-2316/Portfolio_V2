@@ -8,8 +8,7 @@
   align-items: center;
   transition: 0.5 ease-in-out;
   padding: var(--section-padding);
-  background: linear-gradient(90deg, rgba(1, 46, 79, 0.8), rgba(1, 46, 79, 1)),
-    url('../../Assets//Images/background.jpg');
+  background-color: var(--section-background-color-primary);
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
