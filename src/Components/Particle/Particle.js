@@ -27,29 +27,19 @@ const Particle = () => {
               enable: true,
               mode: 'repulse',
             },
-            resize: true,
+            resize: false,
           },
           modes: {
             push: {
-              quantity: 10,
+              quantity: 4,
             },
             repulse: {
               distance: 150,
-              duration: 10,
+              duration: 0.4,
             },
           },
         },
         particles: {
-          color: {
-            value: '#4BFFA5',
-          },
-          links: {
-            color: '#4BFFA5',
-            distance: 0,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
           collisions: {
             enable: true,
           },
@@ -59,9 +49,8 @@ const Particle = () => {
             outModes: {
               default: 'out',
             },
-            random: false,
-            speed: 0.7,
-            straight: false,
+            random: true,
+            speed: 1.5,
           },
           number: {
             value: 100,
@@ -72,15 +61,13 @@ const Particle = () => {
           opacity: {
             value: 0.2,
           },
-          shape: {
-            type: 'circle',
-          },
+
           size: {
-            value: 3,
+            value: { min: 1, max: 3 },
             random: true,
             anim: {
-              speed: 4,
-              size_min: 1,
+              speed: 1,
+              size_min: 0.3,
             },
           },
         },

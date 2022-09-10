@@ -6,7 +6,7 @@ const projects = [
     title: 'Reporting System',
     type: 'School Project',
     purpose: 'Learned to develop a role-based full-stack application',
-    compatibility: 'Works on desktop only',
+    compatibility: 'The project is not in production',
     sourcecode_server:
       'https://github.com/khizerkhan-2316/Reportingsystem_server',
     sourcecode_client:

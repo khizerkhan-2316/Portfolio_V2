@@ -1,6 +1,6 @@
 import './AboutMe.css';
 
-import moment from 'moment';
+import { monthDiff } from '../../Helpers/date.js';
 import { useProjects } from '../../Context/ProjectContext';
 
 const AboutMe = () => {
@@ -8,9 +8,8 @@ const AboutMe = () => {
 
   const facts = [
     {
-      title: 'Experince',
-      value:
-        moment(new Date()).diff(moment([2022, 4, 1] + 1), 'months') + ' Months',
+      title: 'Work Experince',
+      value: monthDiff(new Date(2022, 4, 1), new Date()) + ' Months',
     },
     { title: 'Projects', value: projects.length },
     { title: 'Field', value: 'IT' },

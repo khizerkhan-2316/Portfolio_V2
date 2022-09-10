@@ -6,10 +6,7 @@
   justify-content: center;
   align-items: center;
   color: var(--section-color-primary);
-  background: #012e4f;
-  background-size: cover;
-  background-position: right center;
-  background-repeat: no-repeat;
+  background: var(--section-background-color-primary);
   position: relative;
   border-bottom: 10px solid #4bffa5;
 }
