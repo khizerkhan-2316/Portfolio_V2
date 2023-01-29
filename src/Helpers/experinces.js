@@ -14,6 +14,7 @@ const experinces = [
     description:
       'Currently working as a student assistant in the 3D print department using TypeScript for building a price calculation web application which will be used internally and has to be integrated and work together with other systems to simplify work processes in the department.',
     startDate: 'May 2022',
+    endDate: 'January 2023',
     image: '/Assets/Images/teknologisk-institut.jpg',
   },
 

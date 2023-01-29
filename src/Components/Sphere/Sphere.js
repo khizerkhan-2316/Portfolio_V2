@@ -1,7 +1,7 @@
 import './Sphere.css';
-import TagSphere from 'react-tag-sphere';
+import { TagSphere } from 'react-tag-sphere';
 const Sphere = () => {
-  const texts = [
+  const tags = [
     <img
       width={50}
       src={'https://cdn.svgporn.com/logos/java.svg'}
@@ -60,7 +60,7 @@ const Sphere = () => {
   ];
   return (
     <TagSphere
-      texts={texts}
+      tags={tags}
       maxSpeed={7}
       initialSpeed={32}
       initialDirection={135}
@@ -68,7 +68,7 @@ const Sphere = () => {
       useContainerInlineStyles={true}
       fullWidth={false}
       fullHeight={false}
-      radius={texts.length * 20}
+      radius={tags.length * 20}
       className="tag-sphere"
     />
   );
