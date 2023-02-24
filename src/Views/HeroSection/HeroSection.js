@@ -1,7 +1,7 @@
 import './HeroSection.css';
 import Button from '../../Components/Button/Button';
 import IconButton from '../../Components/IconButton/IconButton';
-import heroImage from '../../Assets/Images/hero.png';
+import heroImage from '../../Assets/Images/HeroImage.png';
 //import Typewriter from 'typewriter-effect';
 //import sentences from '../../Helpers/sentences';
 import Particle from '../../Components/Particle/Particle';
